@@ -37,7 +37,7 @@ public class Valid_Login extends BaseTest {
 
     }
 
-    @When("^I click the login Button$")
+    @When("^I click  on the login Button$")
     public void iClickTheLoginButton() {
         driver.findElement(By.xpath("//*[@id=\"SubmitLogin\"]")).click();
 
@@ -51,6 +51,8 @@ public class Valid_Login extends BaseTest {
         System.out.println(ActualLogInUser);
         driver.quit();
     }
+
+
 }
 
 

@@ -10,5 +10,5 @@ Feature: Login functionality
     # When I click the signin Button
     And I enter valid username
     And I enter valid password
-    When I click the login Button
+    When I click  on the login Button
     Then I should be logged in successfully
