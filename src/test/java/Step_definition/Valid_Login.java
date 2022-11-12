@@ -44,7 +44,7 @@ public class Valid_Login extends BaseTest {
     }
 
     @Then("^I should be logged in successfully$")
-    public  iShouldBeLoggedInSuccessfully() {
+    public void iShouldBeLoggedInSuccessfully() {
         String ExpectedLogInUser = "Dorice Mbonde";
         String ActualLogInUser = driver.findElement(By.xpath("//*[@id=\"header\"]/div[2]/div/div/nav/div[1]/a/span")).getText();
         Assert.assertEquals(ExpectedLogInUser, ActualLogInUser);
