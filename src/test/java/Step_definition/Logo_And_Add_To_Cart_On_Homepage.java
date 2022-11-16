@@ -28,7 +28,7 @@ public class Logo_And_Add_To_Cart_On_Homepage {
 
     @When("^I wait for (\\d+) seconds$")
     public void i_wait_for_seconds(int arg1) throws Throwable {
-        Thread.sleep(5000);
+        Thread.sleep(500);
     }
 
     @Then("^I should see the application logo and add to cart to button$")
