@@ -37,7 +37,7 @@ public class UpdateAddress extends BaseTest {
     public void iEnterTheNewAddressDetails() throws InterruptedException {
         UpdateAddress1 page = PageFactory.initElements(driver, UpdateAddress1.class);
         page.EnterAddress();
-        Thread.sleep(5000);
+        Thread.sleep(10000);
         page.EnterCity();
         page.SelectNewState();
         page.EnterPostcode();
